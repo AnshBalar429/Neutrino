@@ -15,4 +15,5 @@ include_directories(${CMAKE_SOURCE_DIR}/include)
 # Define our executable
 add_executable(MyApi
         src/main.cpp
+        src/KeyValueStore.cpp
 )
